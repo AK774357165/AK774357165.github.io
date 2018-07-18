@@ -1,0 +1,15 @@
+.head{
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei", SimSum, sans-serif;
+    color: white;
+}
+.wrap{
+    margin: 10px auto;
+    background-image: url(./images/chunse-003.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
