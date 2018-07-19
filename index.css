@@ -1,32 +1,49 @@
 .head{
-    text-align: center;
-    line-height: 30px;
-    font-size: 30px;
-    margin-top: 50px;
-    font-family: "Microsoft YaHei", SimSum, sans-serif;
-    color: white;
-}
-.wrap{
-    background-color: lightgray;
-    margin: 0 auto;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-}
-.main{
     width: 60%;
-    height: 0;
-    padding-bottom: 60%;
-    margin: auto;
-}
-.block{
-    width: 30%;
-    padding-bottom: 30%;
+    height: 180px;
     background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px  solid lightgray;
+}
+.head .left{
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url(./images/20150531220445_Fifsw.thumb.700_0.jpeg);
+    background-size: 100% 100%;
+    border-radius: 5px;
     float: left;
-    margin-left: 2%;
-    margin-top: 2%;
-    border-radius: 5%;
-
+}
+.head .right{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.head .right .name{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: gray;
+}
+.head .right .introduction{
+    width: 600px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.head .right .sns{
+    width: 600px;
+    height: 30px;
+    margin-top: 30px;
+  
+}
+.head .right .sns a{
+    text-decoration: none;
+    color: #1db8fa; 
 }
