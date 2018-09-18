@@ -1,91 +1,177 @@
 body{
     background-color: white;
-    width: 80%;
     margin: 0 auto;
-    margin-bottom: 5%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Arial','Microsoft YaHei', serif;
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 }
 header{
-    width: 100%;
-    margin-top: 30px;
-    border-radius: 5px;
-    position: relative;
-    height: 180px;
-    border: 1px  solid lightgray;
-    .left{
-        width: 140px;
-        height: 140px;
-        margin-top: 20px;
-        margin-left: 20px;
-        position: absolute;
-        background-image: url(../images/20150531220445_Fifsw.thumb.700_0.jpeg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
+    .header-banner{
+        background: url(../images/header-banner.png);
+        min-height: 860px;
+        background-size: cover;
+        position: relative;
     }
-    @media (max-width:500px){
-        .left{
-            width: 100px;
-            height: 100px;
-        }
-    }
-    .right{
-        width: auto;
-        margin-right: 20px;
-        position: absolute;
-        left: 180px;
-        margin-top: 10px;
-        .name{
-            width: 100%;
-            height: 35px;
-            margin-top: 5px;
-            font-size: 25px;
-            font-weight: 600;
-            color: gray;
-        }
-        .introduction{
-            width: 100%;
-            height: 30px;
-            margin-top: 5px;
-            font-size: 15px;
-        }
-    }
-    @media (max-width:500px){
-        .right{
-            left: 140px;
-            .name{
-                height: 10px;
-                margin-top: 2px;
-                font-size: 20px;
-            }
-            .introduction{
-                margin-top: 20px;
-                font-size: 12px;
+    .top-menu{
+        padding-top: 2.2em;
+        ul{
+            li{
+                text-align: center;
+                width: 25%;
+                text-transform: uppercase;
+                float: left;
+                a{
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    font-size: 15px;
+                    display: block;
+                    padding: 0.5em 1em;
+                    font-weight: 700;
+                }
+               
+            } 
+            @media (max-width:500px){
+                .scrool{
+                    font-size: 12px;
+                }
             }
         }
     }
-    .sns{
-        width: auto;
-        font-size: 15px;
-        margin-top: 10px;
-        height: 15px;
-        position: absolute;
-        left: 180px;
-        top: 130px;
-        a{
-            text-decoration: none;
-            color: #1db8fa; 
+    .header-banner-info{
+        padding-top: 12em;
+        position: relative;
+        img{
+            vertical-align: middle;
+            border: 0; 
+        }
+        h3{
+            color: #fff;
+            font-size: 3em;
+            font-weight: 300;
+            margin: 1em 0 0.3em 0;
+        }
+        h1{
+            font-size: 4em;
+            font-weight: 300;
+            color: #fff;
+            span{
+                font-weight: 700;
+            }
+        }
+        p{
+            font-weight: 300;
+            color: #FFFFFF;
+            font-size: 1.5em;
+            margin: 1.2em 0 1.6em 0;
+        }
+        @media (max-width:992px){
+            h3{
+                font-size: 2.5em;
+            }
+            h1{
+                font-size: 3.5em;
+            }
+            p{
+                font-size: 1.3em;
+            }
+        }
+        @media(max-width:768px){
+            h3{
+                font-size: 2em;
+            }
+            h1{
+                font-size: 3em;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+        @media(max-width:500px){
+            h3{
+                font-size: 1.5em;
+            }
+            h1{
+                font-size: 2em;
+            }
+            p{
+                font-size: 0.8em;
+            }
+        }
+        .social-icons{
+            .line-left{
+                left: 0;
+                top: 50%;
+            }
+            li{
+                width: 80px;
+                display: inline-block;
+                a{  
+                    display: inline-block;
+                    width: 61px;
+                    height: 60px;
+                    background-image: url(../images/socila-icons.png);
+                }
+                .qq{
+                    background-position: -10px -89px;
+                }
+                .wx{
+                    background-position: -89px -10px;
+                }
+                .email{
+                    background-position: -10px -10px;
+                }
+            }
+        }
+        .details{
+            padding-top: 8em;
+            li{
+                display: inline-block;
+                font-weight: 400;
+                color: #fff;
+                font-size: 17px;
+                letter-spacing: 3px;
+                margin-left: 30px;
+                margin-right: 30px;
+                span{
+                    font-weight: 700;
+                    color: #FFD670;
+                    font-size: 17px;
+                }
+            }
+            @media (max-width:992px){
+                li{
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+            @media(max-width:500px){
+                li{
+                    font-size: 12px;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        @media(max-width:500px){
+            .details{
+                padding-top: 5em;
+            }
         }
     }
-    @media (max-width:500px){
-        .sns{
-            font-size: 12px;
-            left: 25px;
-            top: 120px;
+    @media(max-width:500px){
+        .header-banner-info{
+            padding-top: 8em;
         }
-    }
-}
-@media (max-width:500px){
-    header{
-        height: 160px;  
     }
 }
