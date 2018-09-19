@@ -18,9 +18,9 @@ body{
 header{
     .header-banner{
         background: url(../images/header-banner.png);
-        min-height: 860px;
         background-size: cover;
         position: relative;
+        padding-bottom: 20px;
     }
     .top-menu{
         padding-top: 2.2em;
@@ -173,5 +173,144 @@ header{
         .header-banner-info{
             padding-top: 8em;
         }
+    }
+}
+main{
+    .about-section{
+        background-color: #006db5;
+        padding-top: 3em;
+        .about-section-head{
+            margin-bottom: 4em;
+            position: relative;
+            img{
+                border: 0;
+                vertical-align: middle;
+            }
+            h3{
+                color: #FFFFFF;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 2.3em;
+            }
+            label{
+                height: 3px;
+                width: 5%;
+                background:  #027ccc;
+                display: block;
+                position: absolute;
+                right: 47.5%;
+                top: 180px;
+                margin: -10px 0;
+            }
+            p{
+                color: #72bef0;
+                font-weight: 300;
+                font-size: 1.2em;
+                margin-top: 1.35em;
+                text-transform: uppercase;
+            }
+        }
+        .about-section-grids{
+            .about-section-grid1{
+                h4{
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 1.3em;
+                    text-transform: uppercase;
+                    margin-bottom: 1.5em;
+                }
+                p{
+                    color:  #91c7ea;
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 1.6em;
+                    margin-bottom: 1em;
+                    word-spacing: 2px;
+                }
+            }
+            .about-section-grid2{
+                margin-top: 5em;
+                img{
+                    padding: 2.4em;
+                    border-radius: 50%;
+                    width: 73%;
+                    border: 5px solid #FFD670;
+                }
+            }
+            .about-section-grid3{
+                h4{
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 1.3em;
+                    text-transform: uppercase;
+                    margin-bottom: 1.5em;
+                }
+                .meter{
+                    position: relative;
+                    margin: 0px 0 15px 0;
+                    background: #91c7ea;
+                    height: 35px;
+                    div{
+                        background-color: #FFD670;
+                        display: inline-block;
+                        height: 35px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        color: #fff;
+                        font-size: 0.9em;
+                        font-weight: 600;
+                        line-height: 35px;
+                        position: relative;
+                        text-align: left;
+                        span{
+                            float: right;
+                            color:#91c7ea;
+                        }
+                    }
+                    .ht{
+                        width: 90%;  
+                    }
+                    .css{
+                        width: 90%;
+                    }
+                    .js{
+                        width: 70%;
+                    }
+                    .ps{
+                        width: 80%;
+                    }
+                    .java{
+                        width: 40%;
+                    }
+                }
+            }        
+            @media(max-width:550px){
+                .about-section-grid2{
+                    width: 100%;
+                }
+                .about-section-grid3{
+                    width: 100%;
+                }
+            }  
+        } 
+        @media (min-width: 768px){
+            .wrap {
+                width: 750px;
+            }
+        }        
+        @media (min-width: 992px){
+            .wrap {
+                width: 970px;
+            }
+        }
+        @media(min-width:1200px){
+            .wrap {
+                width: 1170px;
+            }
+        }
+    }
+    .portfolio-section{
+        background-color: #FFD670;
+        padding-top: 4em;
     }
 }

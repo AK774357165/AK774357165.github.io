@@ -15,9 +15,9 @@ body {
 
 header .header-banner {
   background: url(../images/header-banner.png);
-  min-height: 860px;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  padding-bottom: 20px; }
 header .top-menu {
   padding-top: 2.2em; }
   header .top-menu ul li {
@@ -124,5 +124,108 @@ header .header-banner-info {
 @media (max-width: 500px) {
   header .header-banner-info {
     padding-top: 8em; } }
+
+main .about-section {
+  background-color: #006db5;
+  padding-top: 3em; }
+  main .about-section .about-section-head {
+    margin-bottom: 4em;
+    position: relative; }
+    main .about-section .about-section-head img {
+      border: 0;
+      vertical-align: middle; }
+    main .about-section .about-section-head h3 {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 2.3em; }
+    main .about-section .about-section-head label {
+      height: 3px;
+      width: 5%;
+      background: #027ccc;
+      display: block;
+      position: absolute;
+      right: 47.5%;
+      top: 180px;
+      margin: -10px 0; }
+    main .about-section .about-section-head p {
+      color: #72bef0;
+      font-weight: 300;
+      font-size: 1.2em;
+      margin-top: 1.35em;
+      text-transform: uppercase; }
+  main .about-section .about-section-grids .about-section-grid1 h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em; }
+  main .about-section .about-section-grids .about-section-grid1 p {
+    color: #91c7ea;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+    word-spacing: 2px; }
+  main .about-section .about-section-grids .about-section-grid2 {
+    margin-top: 5em; }
+    main .about-section .about-section-grids .about-section-grid2 img {
+      padding: 2.4em;
+      border-radius: 50%;
+      width: 73%;
+      border: 5px solid #FFD670; }
+  main .about-section .about-section-grids .about-section-grid3 h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em; }
+  main .about-section .about-section-grids .about-section-grid3 .meter {
+    position: relative;
+    margin: 0px 0 15px 0;
+    background: #91c7ea;
+    height: 35px; }
+    main .about-section .about-section-grids .about-section-grid3 .meter div {
+      background-color: #FFD670;
+      display: inline-block;
+      height: 35px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #fff;
+      font-size: 0.9em;
+      font-weight: 600;
+      line-height: 35px;
+      position: relative;
+      text-align: left; }
+      main .about-section .about-section-grids .about-section-grid3 .meter div span {
+        float: right;
+        color: #91c7ea; }
+    main .about-section .about-section-grids .about-section-grid3 .meter .ht {
+      width: 90%; }
+    main .about-section .about-section-grids .about-section-grid3 .meter .css {
+      width: 90%; }
+    main .about-section .about-section-grids .about-section-grid3 .meter .js {
+      width: 70%; }
+    main .about-section .about-section-grids .about-section-grid3 .meter .ps {
+      width: 80%; }
+    main .about-section .about-section-grids .about-section-grid3 .meter .java {
+      width: 40%; }
+  @media (max-width: 550px) {
+    main .about-section .about-section-grids .about-section-grid2 {
+      width: 100%; }
+    main .about-section .about-section-grids .about-section-grid3 {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    main .about-section .wrap {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    main .about-section .wrap {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    main .about-section .wrap {
+      width: 1170px; } }
+main .portfolio-section {
+  background-color: #FFD670;
+  padding-top: 4em; }
 
 /*# sourceMappingURL=index.css.map */
