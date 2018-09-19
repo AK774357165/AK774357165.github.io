@@ -27,9 +27,8 @@ header{
         ul{
             li{
                 text-align: center;
-                width: 25%;
-                text-transform: uppercase;
-                float: left;
+                width: 24%;
+                display: inline-block;
                 a{
                     color: #FFFFFF;
                     text-decoration: none;
@@ -38,7 +37,9 @@ header{
                     padding: 0.5em 1em;
                     font-weight: 700;
                 }
-               
+               a:hover{
+                   background-color: #FFD670;
+               }
             } 
             @media (max-width:500px){
                 .scrool{
@@ -179,6 +180,9 @@ main{
     .about-section{
         background-color: #006db5;
         padding-top: 3em;
+        .wrap{
+            padding-bottom: 2em;
+        }
         .about-section-head{
             margin-bottom: 4em;
             position: relative;
@@ -229,7 +233,7 @@ main{
                 }
             }
             .about-section-grid2{
-                margin-top: 5em;
+                margin-top: 3em;
                 img{
                     padding: 2.4em;
                     border-radius: 50%;
@@ -312,5 +316,10 @@ main{
     .portfolio-section{
         background-color: #FFD670;
         padding-top: 4em;
+        p{
+            font-size: 5em;
+            color: #fff;
+            text-align: center;
+        }
     }
 }

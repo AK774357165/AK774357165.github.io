@@ -22,9 +22,8 @@ header .top-menu {
   padding-top: 2.2em; }
   header .top-menu ul li {
     text-align: center;
-    width: 25%;
-    text-transform: uppercase;
-    float: left; }
+    width: 24%;
+    display: inline-block; }
     header .top-menu ul li a {
       color: #FFFFFF;
       text-decoration: none;
@@ -32,6 +31,8 @@ header .top-menu {
       display: block;
       padding: 0.5em 1em;
       font-weight: 700; }
+    header .top-menu ul li a:hover {
+      background-color: #FFD670; }
   @media (max-width: 500px) {
     header .top-menu ul .scrool {
       font-size: 12px; } }
@@ -128,6 +129,8 @@ header .header-banner-info {
 main .about-section {
   background-color: #006db5;
   padding-top: 3em; }
+  main .about-section .wrap {
+    padding-bottom: 2em; }
   main .about-section .about-section-head {
     margin-bottom: 4em;
     position: relative; }
@@ -168,7 +171,7 @@ main .about-section {
     margin-bottom: 1em;
     word-spacing: 2px; }
   main .about-section .about-section-grids .about-section-grid2 {
-    margin-top: 5em; }
+    margin-top: 3em; }
     main .about-section .about-section-grids .about-section-grid2 img {
       padding: 2.4em;
       border-radius: 50%;
@@ -227,5 +230,9 @@ main .about-section {
 main .portfolio-section {
   background-color: #FFD670;
   padding-top: 4em; }
+  main .portfolio-section p {
+    font-size: 5em;
+    color: #fff;
+    text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
