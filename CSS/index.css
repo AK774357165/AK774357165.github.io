@@ -22,7 +22,7 @@ header .top-menu {
   padding-top: 2.2em; }
   header .top-menu ul li {
     text-align: center;
-    width: 24%;
+    width: 23.5%;
     display: inline-block; }
     header .top-menu ul li a {
       color: #FFFFFF;
@@ -229,10 +229,13 @@ main .about-section {
       width: 1170px; } }
 main .portfolio-section {
   background-color: #FFD670;
-  padding-top: 4em; }
-  main .portfolio-section p {
-    font-size: 5em;
+  padding-top: 3em; }
+  main .portfolio-section h2 {
+    font-size: 2em;
     color: #fff;
     text-align: center; }
+  main .portfolio-section #task1 img {
+    width: 200px;
+    height: 400px; }
 
 /*# sourceMappingURL=index.css.map */

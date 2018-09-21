@@ -27,7 +27,7 @@ header{
         ul{
             li{
                 text-align: center;
-                width: 24%;
+                width: 23.5%;
                 display: inline-block;
                 a{
                     color: #FFFFFF;
@@ -315,11 +315,17 @@ main{
     }
     .portfolio-section{
         background-color: #FFD670;
-        padding-top: 4em;
-        p{
-            font-size: 5em;
+        padding-top: 3em;
+        h2{
+            font-size: 2em;
             color: #fff;
             text-align: center;
+        }
+        #task1{
+            img{
+                width: 200px;
+                height: 400px;
+            }
         }
     }
 }
