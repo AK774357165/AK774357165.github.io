@@ -33,12 +33,14 @@ header{
                     color: #FFFFFF;
                     text-decoration: none;
                     font-size: 15px;
+                    border-radius: 5px;
                     display: block;
                     padding: 0.5em 1em;
                     font-weight: 700;
                 }
                a:hover{
                    background-color: #FFD670;
+                   color: #006db5;
                }
             } 
             @media (max-width:500px){
@@ -118,10 +120,20 @@ header{
                 width: 80px;
                 display: inline-block;
                 a{  
+                    margin-top: 4px;
                     display: inline-block;
                     width: 61px;
                     height: 60px;
+                    opacity: 0.6;
                     background-image: url(../images/socila-icons.png);
+                }
+                a:hover{
+                    opacity: 1;
+                }
+                div:hover{
+                    div{
+                        background-color: #FFD670;
+                    }
                 }
                 .qq{
                     background-position: -10px -89px;
@@ -370,13 +382,29 @@ main{
                 width: 300px;
                 height: 600px;
             }
+            .task10{
+                width: 400px;
+                height: 300px;
+            }
+            .task10:hover{
+                width: 600px;
+                height: 450px;
+            }            
             @media(max-width: 500px){
                 img{
                     width: 150px;
                     height: 300px;
                 }
+                .task10{
+                    width: 200px;
+                    height: 150px;
+                }
+                .task10:hover{
+                    width: 300px;
+                    height: 225px;
+                }  
             }
-        }
+        }   
     }
     .mygithub{
         background-color: #027ccc;
@@ -403,14 +431,16 @@ main{
         }
     }
     .contact{
+        padding-top: 2em;
+        padding-bottom: 2em;
         background-color: #FFD670;
         color:#006db5;
-        text-align: right;
-        ul{
+        text-align: center;
+        font-size: 1.2em;
+        @media (max-width:992px){
             text-align: left;
-            font-size: 1.2em;
-            li{
-                width: 20%;
+            .row{
+                padding-left: 2em;
             }
         }
     }
