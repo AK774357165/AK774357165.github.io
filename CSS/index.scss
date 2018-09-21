@@ -335,7 +335,14 @@ main{
     }
     .portfolio-section{
         background-color: #FFD670;
-        padding-top: 3em;
+        .arrow{
+            width: 100%;
+            height: 0;
+            border-top: 10vw solid #006db5;
+            border-right: 50vw solid #FFD670;
+            border-bottom: 10vw solid #FFD670;
+            border-left: 50vw solid #FFD670;
+        }
         h2{
             font-size: 3em;
             color: #006db5;
@@ -408,9 +415,16 @@ main{
     }
     .mygithub{
         background-color: #027ccc;
-        padding-top: 3em;
         padding-bottom: 3em;
         text-align: center;
+        .arrow{
+            width: 100%;
+            height: 0;
+            border-top: 10vw solid #FFD670;
+            border-right: 50vw solid #027ccc;
+            border-bottom: 10vw solid #027ccc;
+            border-left: 50vw solid #027ccc;
+        }
         a{
             width: 8.5em;
             font-size: 2em;
@@ -431,12 +445,12 @@ main{
         }
     }
     .contact{
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
         background-color: #FFD670;
         color:#006db5;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1em;
         @media (max-width:992px){
             text-align: left;
             .row{
